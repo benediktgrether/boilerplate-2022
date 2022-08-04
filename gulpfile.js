@@ -51,7 +51,7 @@ function css() {
         content: ["./**/*.html"]
       })
     )
-    .pipe(dest("css"));
+    .pipe(dest("dist/css"));
 }
 
 function js(done) {
@@ -64,7 +64,7 @@ function js(done) {
       .on("error", onError)
       .pipe(source(entry))
       .pipe(buffer())
-      .pipe(dest("js"));
+      .pipe(dest("dist/js"));
   });
   done();
 }
@@ -72,7 +72,7 @@ function js(done) {
 function watchFiles() {
   watch("src/js/**/*.js", js);
   watch("src/sass/**/*.scss", css);
-  watch("templates/**/**/*.html.twig", css, js);
+  watch("templates/**/**/*.html", css, js);
 }
 
 exports.css = css;
