@@ -1,0 +1,63 @@
+.o-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @include md {
+        justify-content: center;
+    }
+}
+
+.o-grid__item {
+    padding: .25rem;
+
+    // Include layout debugging border
+    // @include layoutDebug;
+}
+
+.o-grid__item-1\/3 {
+    width: 100%;
+    height: 250px;
+
+
+    @include md {
+        width: 33.333%;
+    }
+}
+
+.o-grid__item-2\/3 {
+    width: 100%;
+    height: 250px;
+
+    @include md {
+        width: 66.666%;
+    }
+}
+
+.o-grid__item-1\/4 {
+    width: 50%;
+    height: 250px;
+
+    @include md {
+        width: 25%;
+    }
+}
+
+.o-grid__item-2\/4 {
+    width: 50%;
+    height: 250px;
+}
+
+.o-grid__item-3\/4 {
+    width: 100%;
+    height: 250px;
+
+    @include md {
+        width: 75%;
+    }
+}
+
+.o-grid__item-1\/1 {
+    width: 100%;
+    height: 250px;
+}

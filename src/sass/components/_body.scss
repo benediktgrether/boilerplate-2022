@@ -1,29 +1,10 @@
 body {
-    background-color: black;
-
-    @include xs {
-        background-color: teal;
-    }
-
-    @include md {
-        background-color: green;
-    }
-
-    @include lg {
-        background-color: blue;
-    }
-
-    @include xl {
-        background-color: red;
-    }
-
-    @include xxl {
-        background-color: yellow;
-    }
+    font-size: 16px;
+    background-color: $color-charade-900;
 }
 
 h1 {
     color: #ffffff;
-    font-size: 72px;
+    font-size: 3rem;
     text-align: center;
 }

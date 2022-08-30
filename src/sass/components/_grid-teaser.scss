@@ -1,0 +1,24 @@
+.c-grid__teaser {
+    width: 100%;
+    height: 100%;
+
+    @include borderRadius;
+    box-shadow: 2px 2px 20px #333;
+}
+
+.c-grid__teaser-nord {
+    background-color: $color-nord-800;
+}
+
+.c-grid__teaser-image {
+    width: 100%;
+    height: 100%;
+    @include borderRadius;
+}
+
+.c-grid__teaser-image-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include borderRadius;
+}
