@@ -1,10 +1,26 @@
-$grid-gutter-width: 1.5rem;
-$spacer: 1rem;
-$gutters: (
-  0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
-);
+// Media Queries
+@mixin xs {
+	@media (max-width: 599px) {
+		@content;
+	}
+}
+@mixin md {
+	@media (min-width: 600px) {
+		@content;
+	}
+}
+@mixin lg {
+	@media (min-width: 900px) {
+		@content;
+	}
+}
+@mixin xl {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
+@mixin xxl {
+	@media (min-width: 1800px) {
+		@content;
+	}
+}

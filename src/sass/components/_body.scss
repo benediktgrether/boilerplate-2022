@@ -1,5 +1,25 @@
 body {
     background-color: black;
+
+    @include xs {
+        background-color: teal;
+    }
+
+    @include md {
+        background-color: green;
+    }
+
+    @include lg {
+        background-color: blue;
+    }
+
+    @include xl {
+        background-color: red;
+    }
+
+    @include xxl {
+        background-color: yellow;
+    }
 }
 
 h1 {
