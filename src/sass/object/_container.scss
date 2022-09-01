@@ -1,0 +1,23 @@
+.o-container {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+    @include xl {
+        max-width: 1200px;
+    }
+}
+
+.o-container__ms {
+    margin-top: 1.5rem;
+}
+
+.o-container__mm {
+    margin-top: 2.5rem;
+}
+
+.o-container__ml {
+    margin-top: 3.5rem;
+}

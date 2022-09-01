@@ -1,10 +1,24 @@
+// configuration
 @import "configuration/reset";
 @import "configuration/mixin";
 
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
-@import "../../node_modules/bootstrap/scss/grid";
+// debugg
+@import "configuration/debug";
+
+//variables
+@import "variables/colors";
+@import "variables/font";
+
+// objects
+@import "object/container";
+@import "object/grid";
+
+// elements
+@import "element/heading";
 
 // components
-@import "components/body"
+@import "components/body";
+@import "components/hero";
+@import "components/intro";
+@import "components/big-teaser";
+@import "components/grid-teaser";

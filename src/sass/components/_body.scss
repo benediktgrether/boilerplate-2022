@@ -1,9 +1,13 @@
 body {
-    background-color: black;
+    font-size: 16px;
+    background-color: $cod-gray-50;
+    // background-color: $color-charade-900;
+    font-family: 'Nunito Sans', sans-serif;
+    color: $cod-gray-900;
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 72px;
+    color: $cod-gray-900;
+    font-size: 3rem;
     text-align: center;
 }

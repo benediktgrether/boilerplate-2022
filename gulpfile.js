@@ -48,7 +48,8 @@ function css() {
     .pipe(minifyCSS())
     .pipe(
       purgecss({
-        content: ["./**/*.html"]
+        content: ["./**/*.html"],
+        defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
       })
     )
     .pipe(dest("dist/css"));
