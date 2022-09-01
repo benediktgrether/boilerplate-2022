@@ -7,15 +7,18 @@
 
 //variables
 @import "variables/colors";
+@import "variables/font";
 
 // objects
 @import "object/container";
 @import "object/grid";
 
 // elements
+@import "element/heading";
 
 // components
 @import "components/body";
 @import "components/hero";
+@import "components/intro";
 @import "components/big-teaser";
 @import "components/grid-teaser";
