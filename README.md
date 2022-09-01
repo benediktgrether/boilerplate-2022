@@ -20,5 +20,6 @@ gulp
 
 ## To Do's
 
-- [] Hero Variant
+- [ ] Hero Variant
+- [ ] Slider
 

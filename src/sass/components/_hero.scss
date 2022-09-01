@@ -28,7 +28,7 @@
 
 .c-hero__content {
     position: absolute;
-    bottom: 7rem;
+    bottom: 4rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -39,6 +39,7 @@
 
 .c-hero__title {
     font-size: 3rem;
+    line-height: 1.25;
     text-align: center;
     color: #fff;
 
@@ -65,3 +66,5 @@
         font-size: 4rem;
     }
 }
+
+// Hero Variante
