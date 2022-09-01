@@ -3,7 +3,7 @@
     height: 100%;
 
     @include borderRadius;
-    @include boxShadow;
+    @include boxShadowSmall;
 }
 
 .c-grid__teaser-nord {
