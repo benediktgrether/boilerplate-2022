@@ -1,3 +1,7 @@
-@mixin layoutDebug {
-	border: dotted 2px red;
+@mixin layoutDebugOutline {
+	outline: dotted 2px red !important;
+}
+
+@mixin layoutDebugBackground {
+	background: rgb(0 100 0 / 0.1) !important;
 }

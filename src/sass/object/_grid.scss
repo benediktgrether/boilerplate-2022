@@ -13,7 +13,8 @@
     height: 350px;
 
     // Include layout debugging border
-    @include layoutDebug;
+    @include layoutDebugBackground;
+    @include layoutDebugOutline;
 }
 
 .o-grid__item-1\/3 {
