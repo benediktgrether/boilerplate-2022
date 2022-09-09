@@ -23,3 +23,8 @@ gulp
 - [ ] Hero Variant
 - [ ] Slider
 
+## To get some Ideas for components 
+- [] Porsche Page
+- [ ] Swiss Page
+- [ ] McDonalds | Burgerking Page
+- [ ] Lufthansa Page
